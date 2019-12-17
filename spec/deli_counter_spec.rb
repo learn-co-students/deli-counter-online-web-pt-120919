@@ -1,5 +1,21 @@
 describe 'Deli Counter' do
 
+  def deli_counter(katzDeli)
+  i = 0
+  while i < katzDeli.length)
+
+  puts "there is no body in line"
+
+    {
+    line.push(` `+[i+1]+`. `  + katzDeli[i])
+    i++;
+  }
+  if (katzDeli.length === 0) {
+    return "The line is currently empty.";
+  } else
+  return(`The line is currently:` + line);
+}
+
   let(:katz_deli) { [] }
   let(:other_deli) { ["Logan", "Avi", "Spencer"] }
   let(:another_deli) { ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"] }
