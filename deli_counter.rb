@@ -5,7 +5,7 @@ def line(customers)
 #binding.pry
   if customers.length ==  0  
     puts "The line is currently empty."
-  elsif customers.length > 0 
+  else 
     how_busy_are_we = "The line is currently:"
     customers.each_with_index do |person, place_in_line|
       how_busy_are_we << " #{place_in_line+1}. #{person}"
@@ -18,10 +18,10 @@ end
 def take_a_number(line, name)
    line << "#{name}"
   if line.length == 0 
-  puts "Welcome, #{name}. You are number #{line.length} in line."
-    elsif line.length > 0  
-      puts "Welcome, #{name}. You are number #{line.length} in line."
-      end
+    puts "Welcome, #{name}. You are number #{line.length} in line."
+  else #if line.length > 0
+    puts "Welcome, #{name}. You are number #{line.length} in line."
+  end
 end 
 
 
