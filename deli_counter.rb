@@ -1,1 +1,4 @@
-# Write your code here.
+katz_deli = []
+"1..100".to_a 
+line(number)
+
